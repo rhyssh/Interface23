@@ -22,7 +22,7 @@ document.getElementById("penutup").addEventListener("click", function () {
   const isIbuSelected = document.getElementById("ibu").checked;
   const prefix = (isBapakSelected ? "Bapak " : "") + (isIbuSelected ? "ibu " : "");
 
-  const template2Text = `Terima kasih ${prefix}${namaDosen} Telah memperkenalkan diri, apabila ingin meninggalkan zoom dipersilahkan🙏. <br> Semoga kelularga sehat selalu`;
+  const template2Text = `Terima kasih ${prefix}${namaDosen} Telah menyempatkan hadir pada acara ini, apabila ingin meninggalkan zoom dipersilahkan🙏. <br> Semoga ${prefix} dan keluarga sehat selalu`;
   updateOutput(template2Text);
 });
 
